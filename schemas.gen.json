@@ -10075,7 +10075,7 @@
       "required": [],
       "title": "Props"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent": {
       "type": "object",
       "properties": {
         "displayName": {
@@ -10106,37 +10106,37 @@
       "required": [],
       "title": "FunctionComponent"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer": {
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "properties": {},
       "required": [],
       "title": "Consumer"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider": {
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "properties": {},
       "required": [],
       "title": "Provider"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context": {
       "type": "object",
       "properties": {
         "Consumer": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Consumer",
           "title": " Consumer"
         },
         "Provider": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Provider",
           "title": " Provider"
         },
         "displayName": {
@@ -10153,7 +10153,7 @@
       ],
       "title": "Context"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass": {
       "type": "object",
       "properties": {
         "displayName": {
@@ -10167,28 +10167,28 @@
           "title": "Default Props"
         },
         "contextType": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@Context",
           "title": "Context Type"
         }
       },
       "required": [],
       "title": "ComponentClass"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@FunctionComponent"
         }
       ],
       "title": "ComponentClass|FunctionComponent"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent"
         },
         {
           "type": "string"
@@ -10196,10 +10196,10 @@
       ],
       "title": "ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren": {
       "title": "ComponentChildren"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject": {
       "type": "object",
       "properties": {
         "current": {
@@ -10219,16 +10219,16 @@
       ],
       "title": "RefObject"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback": {
       "title": "RefCallback"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefObject"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback"
         },
         {
           "type": "null"
@@ -10236,10 +10236,10 @@
       ],
       "title": "RefCallback|RefObject|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null"
         },
         {
           "type": "null"
@@ -10247,11 +10247,11 @@
       ],
       "title": "RefCallback|RefObject|null|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode": {
       "type": "object",
       "properties": {
         "type": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentClass|FunctionComponent|f4e2fa6a639dd0d858a2d18a5c9d2890",
           "title": "Type"
         },
         "props": {
@@ -10263,7 +10263,7 @@
               "type": "object",
               "properties": {
                 "children": {
-                  "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren",
+                  "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@ComponentChildren",
                   "title": "Children"
                 }
               },
@@ -10289,7 +10289,7 @@
           "title": "Key"
         },
         "ref": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@RefCallback|RefObject|null|null",
           "title": "Ref"
         },
         "startTime": {
@@ -10314,10 +10314,10 @@
       ],
       "title": "VNode"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@VNode"
         },
         {
           "type": "object"
@@ -10343,20 +10343,20 @@
       ],
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
+        "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
       },
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
     },
-    "djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
+    "djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]": {
       "anyOf": [
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
         },
         {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null"
         }
       ],
       "title": "47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]"
@@ -10373,7 +10373,7 @@
           "title": "Searchbar"
         },
         "children": {
-          "$ref": "#/definitions/djExOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]",
+          "$ref": "#/definitions/djEyOC9wcmVhY3RAMTAuMTUuMS9pbmRleC5kLnRz@47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null|47fb2fe93d8a63166d8156d088239aa2|4acc54d3d6136424a120ea5a58e2a27a|VNode|c4f8d06925738c42028af80b4cccdc30|e1fc9893691ef66154af812953703c46|f4e2fa6a639dd0d858a2d18a5c9d2890|null|null[]",
           "title": "Children"
         }
       },
@@ -11771,28 +11771,13 @@
       "required": [],
       "title": "deco-sites/b2b-omron/sections/Content/Faq.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9iMmItb21yb24vc2VjdGlvbnMvQ29udGVudC9Mb2dvcy50c3g=@Image": {
-      "type": "object",
-      "properties": {
-        "image": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
-          "title": "Image"
-        },
-        "altText": {
-          "type": "string",
-          "title": "Alt Text"
-        }
-      },
-      "required": [
-        "image",
-        "altText"
-      ],
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9JbWFnZS50c3g=@Image": {
       "title": "Image"
     },
-    "ZGVjby1zaXRlcy9iMmItb21yb24vc2VjdGlvbnMvQ29udGVudC9Mb2dvcy50c3g=@Image[]": {
+    "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9JbWFnZS50c3g=@Image[]": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/ZGVjby1zaXRlcy9iMmItb21yb24vc2VjdGlvbnMvQ29udGVudC9Mb2dvcy50c3g=@Image"
+        "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9JbWFnZS50c3g=@Image"
       },
       "title": "Image[]"
     },
@@ -11814,7 +11799,7 @@
           "title": "Description"
         },
         "images": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9iMmItb21yb24vc2VjdGlvbnMvQ29udGVudC9Mb2dvcy50c3g=@Image[]",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9JbWFnZS50c3g=@Image[]",
           "title": "Images"
         },
         "layout": {
@@ -12162,27 +12147,7 @@
       },
       "title": "PaymentItem[]"
     },
-    "ZGVjby1zaXRlcy9iMmItb21yb24vY29tcG9uZW50cy9mb290ZXIvRm9vdGVyLnRzeA==@MobileApps": {
-      "type": "object",
-      "properties": {
-        "apple": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Link to the app",
-          "title": "Apple"
-        },
-        "android": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Link to the app",
-          "title": "Android"
-        }
-      },
-      "required": [],
+    "ZGVjby1zaXRlcy9iMmItb21yb24vY29tcG9uZW50cy9mb290ZXIvTW9iaWxlQXBwcy50c3g=@MobileApps": {
       "title": "MobileApps"
     },
     "ZGVjby1zaXRlcy9iMmItb21yb24vY29tcG9uZW50cy9mb290ZXIvRm9vdGVyLnRzeA==@RegionOptions": {
@@ -12432,7 +12397,7 @@
           "title": "Payments"
         },
         "mobileApps": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9iMmItb21yb24vY29tcG9uZW50cy9mb290ZXIvRm9vdGVyLnRzeA==@MobileApps",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iMmItb21yb24vY29tcG9uZW50cy9mb290ZXIvTW9iaWxlQXBwcy50c3g=@MobileApps",
           "title": "Mobile Apps"
         },
         "regionOptions": {
